@@ -129,6 +129,10 @@ body {
   display: flex;
 }
 
+.main-navigation .current {
+  color: var(--accent-color);
+}
+
 /* main-navigation-item */
 .main-navigation-item:not(:last-child) {
   margin-right: 50px;
@@ -164,15 +168,6 @@ header .link:not(.logo) {
   line-height: 1.14;
   letter-spacing: var(--letter-spacing-header);
 }
-/* (подчеркивание у активной ссылки класс .main-navigation-link-active удален )
-.main-navigation-link-active {
-  text-decoration: underline;
-  color: var(--title-color-light-theme);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: var(--letter-spacing-header);
-} */
 
 /* Contacts */
 .contacts-list {
