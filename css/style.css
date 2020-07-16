@@ -31,7 +31,6 @@ html {
 }
 
 body {
-  width: 1600px;
   background-color: var(--background-color-main);
   font-family: var(--main-font-family);
   font-style: normal;
@@ -319,8 +318,11 @@ section {
 }
 
 /* Team */
-.team-list {
+.team {
   background-color: var(--background-color-team);
+}
+
+.team-list {
   display: flex;
 }
 
