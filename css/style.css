@@ -32,6 +32,7 @@ html {
 
 body {
   background-color: var(--background-color-main);
+  width: 1600px;
   font-family: var(--main-font-family);
   font-style: normal;
   color: var(--text-color-main);
